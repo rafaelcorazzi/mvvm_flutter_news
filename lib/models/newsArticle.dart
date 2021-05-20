@@ -1,7 +1,7 @@
 class NewsArticle {
   late final String title;
-  late final String description;
-  late final String urlToImage;
+  late final String? description;
+  late final String? urlToImage;
   late final String url;
 
   NewsArticle(

@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mvvm_flutter_news/pages/newList.dart';
+import 'package:mvvm_flutter_news/viewmodels/newsArticleListViewModel.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(App());
@@ -9,9 +12,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: "News Today",
-        home: Scaffold(
-          appBar: AppBar(title: Text("Last News")),
-          body: Text("Lastest News will be dipslayed hered..."),
-        ));
+        home: ChangeNotifierProvider(
+            create: (context) => NewsArticleListViewModel(),
+            child: NewsList()));
   }
 }
