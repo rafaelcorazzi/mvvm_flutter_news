@@ -1,16 +1,21 @@
-# mvvm_flutter_news
+<h2>MVVM Flutter News App</h2>
+<p align="center">Flutter news app using mvvm pattern</p>
 
-A new Flutter project.
 
-## Getting Started
+![Badge](https://img.shields.io/badge/license-MIT-green)
 
-This project is a starting point for a Flutter application.
+### Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Flutter]https://flutter.dev/docs/get-started/install/). 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 🎲 Rodando o App
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` bash
+
+# Instale as dependências
+$ pub get
+
+# Execute a aplicação em modo de desenvolvimento
+$ flutter run
+```
